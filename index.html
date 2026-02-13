@@ -32,19 +32,20 @@
                 <li><a href="#kontakt">Kontakt</a></li>
             </ul>
             <div class="flex icons">
-                <button>
+                <button aria-label="Suche starten">
                     <i class="bi bi-search"></i>
                 </button>
-                <button>
+                <button aria-label="zu Favoriten hinzufuegen">
                     <i class="bi bi-heart"></i>
                 </button>
             </div>
-            <button onclick="openNav()" class="hamburger"><i class="bi bi-list"></i></button>
+            <button aria-label="Menue oeffnen" onclick="openNav()" class="hamburger"><i class="bi bi-list"></i></button>
         </nav>
         <!-- Overlay -->
         <div id="myNav" class="overlay display-none py-2 px-2">
             <div class="overlay-content flex">
-                <button class="closebtn" onclick="closeNav()"><i class="bi bi-x-lg"></i></button>
+                <button aria-label="Menue schliessen" class="closebtn" onclick="closeNav()"><i
+                        class="bi bi-x-lg"></i></button>
                 <ul class="flex">
                     <li><a href="#rezepte">Rezepte</a></li>
                     <li><a href="#ueberuns">Über Uns</a></li>
@@ -174,9 +175,9 @@
             </ul>
         </div>
         <div class="social-icons flex">
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-pinterest"></i></a>
+            <a aria-label="zur Instagram Seite" href="#"><i class="bi bi-instagram"></i></a>
+            <a aria-label="zur Facebook" href="#"><i class="bi bi-facebook"></i></a>
+            <a aria-label="zur Pinterest Seite" href="#"><i class="bi bi-pinterest"></i></a>
         </div>
     </footer>
     <script>
